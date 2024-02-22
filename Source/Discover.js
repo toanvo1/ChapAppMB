@@ -638,7 +638,7 @@ export default function User({ navigation }) {
                   marginTop: 10,
                   fontSize: 15,
                   marginLeft: 20,
-                  fontWeight: 400,
+                  fontWeight: 600,
                 }}
               >
                 Tìm việc
