@@ -7,31 +7,31 @@ const messages = [
     id: "1",
     sender: "Alice",
     message: "Hello!",
-    image: require("../assets/zalo.png"),
+    image: require("../assets/avt2.png"),
   },
   {
     id: "2",
     sender: "Bob",
     message: "Hi there!",
-    image: require("../assets/zalo.png"),
+    image: require("../assets/avt3.png"),
   },
   {
     id: "3",
     sender: "Bob",
     message: "Hi there!",
-    image: require("../assets/zalo.png"),
+    image: require("../assets/avt4.png"),
   },
   {
     id: "4",
     sender: "Bob",
     message: "Hi there!",
-    image: require("../assets/zalo.png"),
+    image: require("../assets/avt5.png"),
   },
   {
     id: "5",
     sender: "Bob",
     message: "Hi there!",
-    image: require("../assets/zalo.png"),
+    image: require("../assets/avt6.png"),
   },
 ];
 

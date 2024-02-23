@@ -56,7 +56,7 @@ export default function User({ navigation }) {
         <View style={{ width: 420, height: 470, backgroundColor: "white" }}>
           <View style={{ flexDirection: "row" }}>
             <Image
-              source={require("../assets/zalo.png")}
+              source={require("../assets/avt1.png")}
               style={{
                 width: 50,
                 height: 50,

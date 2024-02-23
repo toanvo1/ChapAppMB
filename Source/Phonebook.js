@@ -154,7 +154,7 @@ export default function Phonebook() {
               <View style={{ flex: 2, flexDirection: "row" }}>
                 <Image
                   style={{ width: 40, height: 40 }}
-                  source={require("../assets/zalo.png")}
+                  source={require("../assets/newgrp.png")}
                 />
                 <Text style={styles.textContainer2}> Tạo nhóm mới</Text>
               </View>
@@ -162,19 +162,19 @@ export default function Phonebook() {
               <View style={{ flex: 1,flexDirection:"row",justifyContent:"space-around", marginBottom:20 }}>
                 <Image
                   style={{ width: 40, height: 40 }}
-                  source={require("../assets/zalo.png")}
+                  source={require("../assets/grp1.png")}
                 />
                 <Image
                   style={{ width: 40, height: 40 }}
-                  source={require("../assets/zalo.png")}
+                  source={require("../assets/grp2.png")}
                 />
                 <Image
                   style={{ width: 40, height: 40 }}
-                  source={require("../assets/zalo.png")}
+                  source={require("../assets/grp3.png")}
                 />
                 <Image
                   style={{ width: 40, height: 40 }}
-                  source={require("../assets/zalo.png")}
+                  source={require("../assets/grp5.png")}
                 />
               </View>
               <View style={styles.separator}></View>
@@ -188,7 +188,7 @@ export default function Phonebook() {
             <View style={{ backgroundColor: "white", width: 420, height: 500 }}>
               <View style={{ flexDirection: "row" }}>
                 <Image
-                  source={require("../assets/zalo.png")}
+                  source={require("../assets/oa1.png")}
                   style={styles.image}
                 ></Image>
                 <Text style={{ marginTop: 20, fontSize: 20, marginLeft: 20 }}>
@@ -204,7 +204,7 @@ export default function Phonebook() {
 
               <View style={{ flexDirection: "row" }}>
                 <Image
-                  source={require("../assets/zalo.png")}
+                  source={require("../assets/oa2.png")}
                   style={styles.image}
                 ></Image>
                 <Text style={{ marginTop: 20, fontSize: 20, marginLeft: 20 }}>
@@ -214,7 +214,7 @@ export default function Phonebook() {
 
               <View style={{ flexDirection: "row" }}>
                 <Image
-                  source={require("../assets/zalo.png")}
+                  source={require("../assets/oa3.png")}
                   style={styles.image}
                 ></Image>
                 <Text style={{ marginTop: 20, fontSize: 20, marginLeft: 20 }}>
@@ -224,7 +224,7 @@ export default function Phonebook() {
 
               <View style={{ flexDirection: "row" }}>
                 <Image
-                  source={require("../assets/zalo.png")}
+                  source={require("../assets/oa4.png")}
                   style={styles.image}
                 ></Image>
                 <Text style={{ marginTop: 20, fontSize: 20, marginLeft: 20 }}>
@@ -451,5 +451,9 @@ const styles = StyleSheet.create({
     marginTop: 10,
     marginLeft: 20,
     borderRadius: 90,
+    resizeMode:'contain'
   },
+  tabContainer2:{
+    backgroundColor:'white'
+  }
 });
