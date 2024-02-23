@@ -17,19 +17,19 @@ const messages = [
   },
   {
     id: "3",
-    sender: "Bob",
+    sender: "Judy",
     message: "Hi there!",
     image: require("../assets/avt4.png"),
   },
   {
     id: "4",
-    sender: "Bob",
+    sender: "James",
     message: "Hi there!",
     image: require("../assets/avt5.png"),
   },
   {
     id: "5",
-    sender: "Bob",
+    sender: "Michel",
     message: "Hi there!",
     image: require("../assets/avt6.png"),
   },
