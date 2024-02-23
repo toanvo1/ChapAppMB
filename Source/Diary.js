@@ -46,8 +46,8 @@ export default function User({ navigation }) {
         </View>
       </View>
 
-      <View style={{ width: 420, height: 3000, backgroundColor: "#DCDCDC" }}>
-        <View style={{ width: 420, height: 3000, backgroundColor: "white" }}>
+      <View style={{ width: 420, height: 3900, backgroundColor: "#DCDCDC" }}>
+        <View style={{ width: 420, height: 3900, backgroundColor: "white" }}>
           <View style={{ flexDirection: "row" }}>
             <Image
               source={require("../assets/avt1.png")}
@@ -189,7 +189,7 @@ export default function User({ navigation }) {
               marginTop: 20,
             }}
           ></View>
-          
+
           <View style={{ flexDirection: "row", }}>
             <View style={{ marginLeft: 20, marginTop: 15 }}>
               <Image
@@ -257,9 +257,9 @@ export default function User({ navigation }) {
                 bottom: 20
               }}
             ></Image>
-            <View style={{bottom:20, flexDirection:'row'}}>
+            <View style={{ bottom: 20, flexDirection: 'row' }}>
               <Text style={{ fontWeight: '500', fontSize: '25' }}> 15 người khác </Text>
-              <Text style={{ fontWeight: '500', fontSize: '25',marginLeft:130 }}> 12 Bình luận </Text>
+              <Text style={{ fontWeight: '500', fontSize: '25', marginLeft: 130 }}> 12 Bình luận </Text>
             </View>
 
           </View>
@@ -319,7 +319,7 @@ export default function User({ navigation }) {
           </View>
           <View style={{ justifyContent: 'center', alignItems: 'center' }}>
             <Image
-              source={require("../assets/pic1.png")}
+              source={require("../assets/pic2.png")}
               style={{
                 width: 400,
                 height: 300,
@@ -351,9 +351,9 @@ export default function User({ navigation }) {
                 bottom: 20
               }}
             ></Image>
-            <View style={{bottom:20, flexDirection:'row'}}>
+            <View style={{ bottom: 20, flexDirection: 'row' }}>
               <Text style={{ fontWeight: '500', fontSize: '25' }}> 15 người khác </Text>
-              <Text style={{ fontWeight: '500', fontSize: '25',marginLeft:130 }}> 12 Bình luận </Text>
+              <Text style={{ fontWeight: '500', fontSize: '25', marginLeft: 130 }}> 12 Bình luận </Text>
             </View>
 
           </View>
@@ -413,7 +413,7 @@ export default function User({ navigation }) {
           </View>
           <View style={{ justifyContent: 'center', alignItems: 'center' }}>
             <Image
-              source={require("../assets/pic1.png")}
+              source={require("../assets/pic3.png")}
               style={{
                 width: 400,
                 height: 300,
@@ -445,9 +445,9 @@ export default function User({ navigation }) {
                 bottom: 20
               }}
             ></Image>
-            <View style={{bottom:20, flexDirection:'row'}}>
+            <View style={{ bottom: 20, flexDirection: 'row' }}>
               <Text style={{ fontWeight: '500', fontSize: '25' }}> 15 người khác </Text>
-              <Text style={{ fontWeight: '500', fontSize: '25',marginLeft:130 }}> 12 Bình luận </Text>
+              <Text style={{ fontWeight: '500', fontSize: '25', marginLeft: 130 }}> 12 Bình luận </Text>
             </View>
 
           </View>
@@ -507,7 +507,7 @@ export default function User({ navigation }) {
           </View>
           <View style={{ justifyContent: 'center', alignItems: 'center' }}>
             <Image
-              source={require("../assets/pic1.png")}
+              source={require("../assets/pic4.png")}
               style={{
                 width: 400,
                 height: 300,
@@ -539,9 +539,9 @@ export default function User({ navigation }) {
                 bottom: 20
               }}
             ></Image>
-            <View style={{bottom:20, flexDirection:'row'}}>
+            <View style={{ bottom: 20, flexDirection: 'row' }}>
               <Text style={{ fontWeight: '500', fontSize: '25' }}> 15 người khác </Text>
-              <Text style={{ fontWeight: '500', fontSize: '25',marginLeft:130 }}> 12 Bình luận </Text>
+              <Text style={{ fontWeight: '500', fontSize: '25', marginLeft: 130 }}> 12 Bình luận </Text>
             </View>
 
           </View>
@@ -555,7 +555,10 @@ export default function User({ navigation }) {
             </View>
           </View>
 
+          
           {/* -------end4------- */}
+
+          
 
           <View
             style={{
@@ -563,6 +566,78 @@ export default function User({ navigation }) {
               borderColor: "#D3D3D3",
               width: 420,
               marginTop: 20,
+            }}
+          ></View>
+
+          {/* Bao moi1 */}
+          <View style={{ flexDirection: "row", }}>
+            <View style={{ marginLeft: 20, marginTop: 15 }}>
+              <Image
+                source={require("../assets/baomoi.png")}
+                style={{
+                  width: 50,
+                  height: 50,
+                  borderRadius: 90,
+                  marginTop: 5,
+                  resizeMode: 'contain'
+                }}
+              ></Image>
+            </View>
+            <View >
+              <Text
+                style={{
+                  marginTop: 20,
+                  fontSize: 20,
+                  marginLeft: 20,
+                  fontWeight: 400,
+
+                }}
+              >
+                Báo Mới
+              </Text>
+              <Text style={{ fontSize: 15, marginLeft: 20, color: '#A1A1A1' }}>
+                Được tài trợ
+              </Text>
+            </View>
+            <View style={{ justifyContent: 'flex-end', bottom: 15, left: 160 }}>
+              <AntDesign name="ellipsis1" size={25} color="black" />
+            </View>
+          </View>
+
+          <View style={{ justifyContent: 'center', alignItems: 'center' }}>
+            <Image
+              source={require("../assets/new2.png")}
+              style={{
+                width: 400,
+                height: 300,
+                resizeMode: 'contain',
+                bottom: 25,
+                right: 10
+              }}
+            ></Image>
+
+          </View>
+          <View style={{ bottom: 55, width: '95%', marginLeft: 10 }}>
+            <Text
+              style={{ fontSize: 18, fontWeight: "600" }}>
+                Chính phủ thống nhất giảm tuổi hưởng trợ cấp hưu trí từ 80 xuống 75 | BLĐ</Text>
+          </View>
+          <View style={{justifyContent:'center', alignItems:'center', bottom:20, right:15}}>
+            <View style={{ flexDirection: 'row', bottom: 25, backgroundColor: '#E8E9EB', borderRadius: '20px', width: 350, height: 40, justifyContent: 'center', alignItems: 'center' }}>
+              <AntDesign name="download" size={24} color="black" />
+              <Pressable>
+                Tải Ngay
+              </Pressable>
+            </View>
+          </View>
+          {/* End baomoi1 */}
+
+          <View
+            style={{
+              borderWidth: 3,
+              borderColor: "#D3D3D3",
+              width: 420,
+              marginTop: 5,
             }}
           ></View>
 
@@ -600,9 +675,10 @@ export default function User({ navigation }) {
               <AntDesign name="ellipsis1" size={25} color="black" />
             </View>
           </View>
+
           <View style={{ justifyContent: 'center', alignItems: 'center' }}>
             <Image
-              source={require("../assets/pic1.png")}
+              source={require("../assets/pic5.png")}
               style={{
                 width: 400,
                 height: 300,
@@ -634,9 +710,9 @@ export default function User({ navigation }) {
                 bottom: 20
               }}
             ></Image>
-            <View style={{bottom:20, flexDirection:'row'}}>
+            <View style={{ bottom: 20, flexDirection: 'row' }}>
               <Text style={{ fontWeight: '500', fontSize: '25' }}> 15 người khác </Text>
-              <Text style={{ fontWeight: '500', fontSize: '25',marginLeft:130 }}> 12 Bình luận </Text>
+              <Text style={{ fontWeight: '500', fontSize: '25', marginLeft: 130 }}> 12 Bình luận </Text>
             </View>
 
           </View>
@@ -651,6 +727,84 @@ export default function User({ navigation }) {
           </View>
 
           {/* -------end5------- */}
+          <View
+            style={{
+              borderWidth: 3,
+              borderColor: "#D3D3D3",
+              width: 420,
+              marginTop: 20,
+            }}
+          ></View>
+          {/* Bao moi */}
+          <View style={{ flexDirection: "row", }}>
+            <View style={{ marginLeft: 20, marginTop: 15 }}>
+              <Image
+                source={require("../assets/baomoi.png")}
+                style={{
+                  width: 50,
+                  height: 50,
+                  borderRadius: 90,
+                  marginTop: 5,
+                  resizeMode: 'contain'
+                }}
+              ></Image>
+            </View>
+            <View >
+              <Text
+                style={{
+                  marginTop: 20,
+                  fontSize: 20,
+                  marginLeft: 20,
+                  fontWeight: 400,
+
+                }}
+              >
+                Báo Mới
+              </Text>
+              <Text style={{ fontSize: 15, marginLeft: 20, color: '#A1A1A1' }}>
+                Được tài trợ
+              </Text>
+            </View>
+            <View style={{ justifyContent: 'flex-end', bottom: 15, left: 160 }}>
+              <AntDesign name="ellipsis1" size={25} color="black" />
+            </View>
+          </View>
+
+          <View style={{ justifyContent: 'center', alignItems: 'center' }}>
+            <Image
+              source={require("../assets/new1.png")}
+              style={{
+                width: 400,
+                height: 300,
+                resizeMode: 'contain',
+                bottom: 25,
+                right: 10
+              }}
+            ></Image>
+
+          </View>
+          <View style={{ bottom: 55, width: '95%', marginLeft: 10 }}>
+            <Text
+              style={{ fontSize: 18, fontWeight: "600" }}>Dự kiến tiền lương trung bình của công chức, viên chức sẽ có mức tăng vượt bậc. Tăng bao nhiêu ?</Text>
+          </View>
+          <View style={{justifyContent:'center', alignItems:'center', bottom:20, right:15}}>
+            <View style={{ flexDirection: 'row', bottom: 25, backgroundColor: '#E8E9EB', borderRadius: '20px', width: 350, height: 40, justifyContent: 'center', alignItems: 'center' }}>
+              <AntDesign name="download" size={24} color="black" />
+              <Pressable>
+                Tải Ngay
+              </Pressable>
+            </View>
+          </View>
+          {/* End baomoi */}
+          <View
+            style={{
+              borderWidth: 3,
+              borderColor: "#D3D3D3",
+              width: 420,
+              marginTop: 5,
+            }}
+          ></View>
+
 
         </View>
       </View>
