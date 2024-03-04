@@ -46,8 +46,8 @@ export default function User({ navigation }) {
         </View>
       </View>
 
-      <View style={{ width: 420, height: 4400, backgroundColor: "#DCDCDC" }}>
-        <View style={{ width: 420, height: 4400, backgroundColor: "white" }}>
+      <View style={{ width: 420, height: 4800, backgroundColor: "#DCDCDC" }}>
+        <View style={{ width: 420, height: 4800, backgroundColor: "white" }}>
           <View style={{ flexDirection: "row" }}>
             <Image
               source={require("../assets/avt1.png")}
@@ -891,6 +891,75 @@ export default function User({ navigation }) {
 
           
           {/* -------end6------- */}
+          <View
+            style={{
+              borderWidth: 3,
+              borderColor: "#D3D3D3",
+              width: 420,
+              marginTop: 20,
+            }}
+          ></View>
+
+<View style={{ flexDirection: "row", }}>
+            <View style={{ marginLeft: 20, marginTop: 15 }}>
+              <Image
+                source={require("../assets/baomoi.png")}
+                style={{
+                  width: 50,
+                  height: 50,
+                  borderRadius: 90,
+                  marginTop: 5,
+                  resizeMode: 'contain'
+                }}
+              ></Image>
+            </View>
+            <View >
+              <Text
+                style={{
+                  marginTop: 20,
+                  fontSize: 20,
+                  marginLeft: 20,
+                  fontWeight: 400,
+
+                }}
+              >
+                Báo Mới
+              </Text>
+              <Text style={{ fontSize: 15, marginLeft: 20, color: '#A1A1A1' }}>
+                Được tài trợ
+              </Text>
+            </View>
+            <View style={{ justifyContent: 'flex-end', bottom: 15, left: 160 }}>
+              <AntDesign name="ellipsis1" size={25} color="black" />
+            </View>
+          </View>
+
+          <View style={{ justifyContent: 'center', alignItems: 'center' }}>
+            <Image
+              source={require("../assets/new3.png")}
+              style={{
+                width: 400,
+                height: 300,
+                resizeMode: 'contain',
+                bottom: 25,
+                right: 10
+              }}
+            ></Image>
+
+          </View>
+          <View style={{ bottom: 55, width: '95%', marginLeft: 10 }}>
+            <Text
+              style={{ fontSize: 18, fontWeight: "600" }}>
+                Pep Guardiola hết lời ca ngợi Phil Foden sau màn giải cứu Man City </Text>
+          </View>
+          <View style={{justifyContent:'center', alignItems:'center', bottom:20, right:15}}>
+            <View style={{ flexDirection: 'row', bottom: 25, backgroundColor: '#E8E9EB', borderRadius: '20px', width: 350, height: 40, justifyContent: 'center', alignItems: 'center' }}>
+              <AntDesign name="download" size={24} color="black" />
+              <Pressable>
+                Tải Ngay
+              </Pressable>
+            </View>
+          </View>
 
 
         </View>
